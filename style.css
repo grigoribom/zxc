@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to right,#5FC0CE,#36BBCE ,#03899C	,#1F6B75	,#015965 );
+    width: 100% ;
+    height: 70px;
+}
+.link-header{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top:25px;
+    left: 25px;
+    box-shadow:10px 7px 8px 0 black ;
+
+}
+.link-header:hover{
+    font-size: 20px;
+    transition: 0.9s ;
+}
+
+.link-nav{
+    text-decoration: none;
+    background-color: #5FC0CE;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav{
+    margin-top: 30px;
+    text-align: center;
+}
+.link-nav:hover{
+    font-size: 21px;
+    transition: 0.9s;
+}
+li{
+    padding: 4px;
+}
+footer{
+    background-image: linear-gradient(to right,#5FC0CE,#36BBCE ,#03899C	,#1F6B75	,#015965 );
+    margin-top: 20px;
+    padding: 10px;
+}
+.social{
+    margin: 15px;
+}
